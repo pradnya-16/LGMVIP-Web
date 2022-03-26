@@ -1,0 +1,56 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: lightcyan;
+  font-weight: 800;
+}
+
+.nav{
+  height: 100px;
+  background-color: aqua;
+}
+
+.brand{
+  font-size: 30px;
+  padding-top: 10px;
+  margin-left: 535px;
+  font-weight: 500;
+}
+
+#getbutton{
+  height: 30px;
+  width: 150px;
+  font-size: 22px;
+  margin-left: 560px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #08a4a7;
+  border-radius: 20px;
+  border-color: black;
+  color: whitesmoke;
+}
+
+#getbutton:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  pointer-events: fill;
+  cursor: pointer;
+}
+
+.cards{
+  padding-top: 10px;
+  background-color: #4dfed1;
+  box-shadow: 0 4px 8px 0 black;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  text-overflow: clip;
+}
+
+.cards:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+  
+}
+
+
+
